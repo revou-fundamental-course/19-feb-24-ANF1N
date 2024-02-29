@@ -621,15 +621,6 @@ footer {
     display: block;
   }
 
-  .sectionTwo-contact-left-mediasosial a i {
-    color: var(--white);
-  }
-
-  .sectionTwo-contact-left-mediasosial a {
-    color: var(--white);
-    text-decoration: none;
-  }
-
   .sectionTwo-contact-item {
     display: block;
   }
@@ -847,4 +838,7 @@ footer {
 }
 
 @media only screen and (max-width: 330px) {
+  .sectionTwo-service-box {
+    height: auto;
+  }
 }
