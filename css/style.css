@@ -911,23 +911,23 @@ footer {
 
   /* SERVICE */
   .sectionTwo-service {
-    height: 240vh;
+    height: 245vh;
   }
 
   /* ABOUT */
 
   .sectionTwo-about {
-    height: 245vh;
+    height: 265vh;
   }
 
   /* DOCTOR */
   .sectionTwo-doctor {
-    height: 120vh;
+    height: 175vh;
   }
 
   /* CONTACT */
   .sectionTwo-contact {
-    height: 215vh;
+    height: 200vh;
   }
 
   .sectionTwo-contact-box {
@@ -938,7 +938,7 @@ footer {
 @media only screen and (max-width: 479px) {
   /* DOCTOR */
   .sectionTwo-doctor {
-    height: 220vh;
+    height: 250vh;
   }
 }
 
