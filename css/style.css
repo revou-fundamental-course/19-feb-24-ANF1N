@@ -24,6 +24,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   align-items: center;
   justify-content: space-between;
@@ -161,11 +162,12 @@ header {
 /* SECTION HOME-SERVICE */
 
 .sectionTwo-service {
-  height: 75vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 50px;
+  padding: 100px 50px 0px 50px;
+  margin: 100px 0px;
 }
 
 .sectionTwo-service-container h1 {
@@ -216,12 +218,13 @@ header {
 /* SECTION HOME-ABOUT */
 
 .sectionTwo-about {
-  height: 215vh;
+  height: auto;
   background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 50px;
+  padding: 130px 50px 0px 50px;
+  margin: 100px 0px;
 }
 
 .sectionTwo-about-container h1 {
@@ -258,11 +261,12 @@ header {
 /* SECTION HOME-DOCTOR */
 
 .sectionTwo-doctor {
-  height: 95vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 50px;
+  padding: 120px 50px 0px 50px;
+  margin: 100px 0px;
 }
 
 .sectionTwo-doctor-container h1 {
@@ -308,10 +312,12 @@ header {
 /* SECTION HOME-CONTACT */
 
 .sectionTwo-contact {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 150px 0px;
+  margin: 100px 0px;
 }
 
 .sectionTwo-contact-part2 h1 {
@@ -587,11 +593,6 @@ footer {
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 1579px) {
-  /* DOCTOR */
-
-  .sectionTwo-doctor {
-    height: 135vh;
-  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -604,22 +605,7 @@ footer {
   .homeTitle-box p {
     font-size: 28px;
   }
-  /* SERVICE */
-
-  .sectionTwo-service {
-    height: 135vh;
-  }
-
-  /* DOCTOR */
-
-  .sectionTwo-doctor {
-    height: 185vh;
-  }
-
   /* CONTACT */
-  .sectionTwo-contact {
-    height: 135vh;
-  }
 
   .sectionTwo-contact-left {
     display: flex;
@@ -650,15 +636,6 @@ footer {
 }
 
 @media only screen and (max-width: 1100px) {
-  .sectionTwo-doctor {
-    height: auto;
-  }
-
-  /* ABOUT */
-
-  .sectionTwo-about {
-    height: auto;
-  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -708,10 +685,6 @@ footer {
 
   /* ABOUT */
 
-  .sectionTwo-about {
-    height: 180vh;
-  }
-
   .sectionTwo-about-container h1 {
     font-size: 15px;
   }
@@ -738,10 +711,6 @@ footer {
   }
 
   /* DOCTOR */
-  .sectionTwo-doctor {
-    height: 130vh;
-  }
-
   .sectionTwo-about-box {
     display: flex;
   }
@@ -768,9 +737,6 @@ footer {
   }
 
   /* CONTACT */
-  .sectionTwo-contact {
-    height: 200vh;
-  }
 
   .sectionTwo-contact-container-title h1 {
     font-size: 15px;
@@ -843,46 +809,7 @@ footer {
 }
 
 @media only screen and (max-width: 769px) {
-  /* HOME */
-
-  /* .sectionHome-container {
-    padding: 0px 50px;
-  }
-
-  .homeTitle-box h1 {
-    font-size: 17px;
-  }
-
-  .homeTitle-box p {
-    font-size: 14px;
-  }
-
-  .homeTitle-box a button {
-    padding: 5px 10px;
-    font-size: 13px;
-  } */
-
-  /* SERVICE */
-
-  .sectionTwo-service {
-    height: 215vh;
-  }
-
-  /* ABOUT */
-
-  .sectionTwo-about {
-    height: 225vh;
-  }
-
-  /* DOCTOR */
-  .sectionTwo-doctor {
-    height: 100vh;
-  }
-
   /* CONTACT */
-  .sectionTwo-contact {
-    height: 185vh;
-  }
 
   .sectionTwo-contact-box {
     width: 100%;
@@ -909,26 +836,7 @@ footer {
     font-size: 13px;
   }
 
-  /* SERVICE */
-  .sectionTwo-service {
-    height: 245vh;
-  }
-
-  /* ABOUT */
-
-  .sectionTwo-about {
-    height: 265vh;
-  }
-
-  /* DOCTOR */
-  .sectionTwo-doctor {
-    height: 175vh;
-  }
-
   /* CONTACT */
-  .sectionTwo-contact {
-    height: 200vh;
-  }
 
   .sectionTwo-contact-box {
     width: 100%;
@@ -936,23 +844,7 @@ footer {
 }
 
 @media only screen and (max-width: 479px) {
-  /* DOCTOR */
-  .sectionTwo-doctor {
-    height: 250vh;
-  }
 }
 
 @media only screen and (max-width: 330px) {
-  /* SERVICE */
-  .sectionTwo-service {
-    height: 235vh;
-  }
-
-  .sectionTwo-service-item {
-    height: 300px;
-  }
-  /* DOCTOR */
-  .sectionTwo-doctor {
-    height: 260vh;
-  }
 }
