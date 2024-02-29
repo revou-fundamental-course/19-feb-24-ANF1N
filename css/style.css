@@ -254,6 +254,10 @@ header {
   padding: 10px 0px;
 }
 
+.sectionTwo-about-slideshow-container img {
+  padding: 10px;
+}
+
 .sectionTwo-about-image img {
   padding: 10px;
 }
