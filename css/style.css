@@ -794,8 +794,8 @@ footer {
   }
 
   .footerButton i {
-    font-size: 8px;
-    border: 1px solid var(--white);
+    font-size: 20px;
+    border: none;
   }
 
   .footerItem-two p {
