@@ -122,7 +122,7 @@ header {
   height: 100vh;
   display: flex;
   align-items: center;
-  padding: 0px 160px;
+  padding: 0px 90px;
   background: rgba(0, 0, 0, 0.2) url(../img/assets7.jpg);
   background-size: cover;
   background-blend-mode: darken;
@@ -634,6 +634,12 @@ footer {
   .sectionTwo-doctor {
     height: 300vh;
   }
+
+  /* ABOUT */
+
+  /* .sectionTwo-about {
+    height: 400vh;
+  } */
 }
 
 @media only screen and (max-width: 990px) {
@@ -664,8 +670,11 @@ footer {
     background-attachment: fixed;
   }
 
-  .homeTitle-box {
-    display: none;
+  .homeTitle-box h1 {
+    font-size: 26px;
+  }
+  .homeTitle-box p {
+    font-size: 20px;
   }
 
   /* SERVICE */
@@ -681,7 +690,7 @@ footer {
   /* ABOUT */
 
   .sectionTwo-about {
-    height: 100vh;
+    height: 180vh;
   }
 
   .sectionTwo-about-container h1 {
@@ -711,7 +720,7 @@ footer {
 
   /* DOCTOR */
   .sectionTwo-doctor {
-    height: 200vh;
+    height: 130vh;
   }
 
   .sectionTwo-about-box {
