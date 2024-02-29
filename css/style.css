@@ -830,8 +830,8 @@ footer {
 @media only screen and (max-width: 769px) {
   /* HOME */
 
-  .sectionHome-container {
-    padding: 10px;
+  /* .sectionHome-container {
+    padding: 0px 50px;
   }
 
   .homeTitle-box h1 {
@@ -845,7 +845,7 @@ footer {
   .homeTitle-box a button {
     padding: 5px 10px;
     font-size: 13px;
-  }
+  } */
 
   /* SERVICE */
 
@@ -874,7 +874,27 @@ footer {
   }
 }
 
-@media only screen and (max-width: 369px) {
+@media only screen and (max-width: 590px) {
+  /* HOME */
+
+  .sectionHome-container {
+    padding: 0px 30px;
+  }
+
+  .homeTitle-box h1 {
+    font-size: 17px;
+  }
+
+  .homeTitle-box p {
+    font-size: 14px;
+  }
+
+  .homeTitle-box a button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  /* SERVICE */
   .sectionTwo-service {
     height: 240vh;
   }
