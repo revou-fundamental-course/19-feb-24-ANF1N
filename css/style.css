@@ -851,4 +851,9 @@ footer {
   .sectionTwo-service-box {
     height: auto;
   }
+
+  .sectionHome-container {
+    margin-top: 110px;
+    height: 85vh;
+  }
 }
